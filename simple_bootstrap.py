@@ -48,7 +48,7 @@ if __name__ == '__main__':
     # Test code make distribution of points following a linear trend
     x = np.random.normal(5.0, 2.0, 100)
     ex = abs(np.random.normal(0.0, 2.0, 100))
-    # assign a function
+    # assign a function F(x, *args, **kwargs)
     F = np.median
     # work out true value
     truevalue = F(x)
