@@ -13,6 +13,9 @@ def bootstrap(F, N, array, err_array, *args, **kwargs):
     :param F: function, the function to bootstrap around
               (first argument must be the bootstrapped version of array all
                other arguments taken in as *args and **kwargs)
+        
+        format of function should be as follows:
+            F(array, *args, **kwargs)
 
     :param N: int, number of bootstrap iterations
 
